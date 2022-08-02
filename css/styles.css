@@ -1,0 +1,72 @@
+body {
+    margin: 0 30px;
+    height: 100vh;
+    color: #16123f;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: linear-gradient(to bottom right, #abd699, #75c9b7);
+    font-family: 'Lobster', cursive;
+}
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    font-weight: bold;
+    color: #e2efe5;
+}
+h3{
+    text-align: center;
+}
+span {
+    color: #ffe26a;
+}
+
+
+.ButtonDiv {
+    justify-content: center;
+    text-align: center;
+}
+
+
+.submitButton {
+    width: 150px;
+    font-size: 25px;
+    margin: auto;
+    background-color: #16123f;
+    border: 0px;
+    color: #c7ddcc;
+  
+}
+.sizeBtn{
+    width: 40px;
+    font-size: 20px;
+}
+
+#textID {
+    background-color: transparent;
+    border: 4px solid #c7ddcc;
+    font-family: 'Roboto', sans-serif;
+    color:#16123f;
+}
+
+.submitButton:hover {
+    background-color: #c7ddcc;
+    color:#16123f;
+}
+.chooseFont{
+    font-size: 24px; 
+    color: #16123f;
+}
+footer{
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+/* Light Lime: #abd699  green bright
+
+Fresh Lemon: #ffe26a yellow bright
+
+Teal: #75c9b7 seagreen
+
+Mint: #c7ddcc white
+
+Navy: #16123f */

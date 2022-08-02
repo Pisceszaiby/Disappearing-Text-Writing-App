@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Lobster&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:wght@200;300;400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Square+Peg&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Note Taking App</title>
+</head>
+
+<body>
+    <h1>Your Most Productive<span> Writing </span>App</h1>
+    
+    <h3>Write Before Time Runs Out! Time Left: <span id="time"> 10s </span></h3>
+    <span class="chooseFont"style="text-align:left ;">Choose Font Size:  </span>
+    <button onclick="changeSize(this)" id="12" class="submitButton sizeBtn btn btn-primary">12</button>
+    <button onclick="changeSize(this)" id="14" class="submitButton sizeBtn btn btn-primary">14</button>
+    <button onclick="changeSize(this)" id="16" class="submitButton sizeBtn btn btn-primary">16</button>
+    <button onclick="changeSize(this)" id="18" class="submitButton sizeBtn btn btn-primary">18</button>
+    <button onclick="changeSize(this)" id="20" class="submitButton sizeBtn btn btn-primary">20</button>
+
+    <form class="formClass" action="">
+        <div class="form-group">
+
+        </div>
+        <div class="form-group">
+            <textarea onkeydown="keydownFunction()"  id="textID" placeholder="Write Here!"
+                rows="13" name="postText" class="form-control" type="text">
+        </textarea>
+            <br>
+        </div>
+        <div class="ButtonDiv">
+            <h5 id="h5"style="visibility:hidden;">Text Copied</h5>
+            <button type="button" onclick="saveText(this)"class="submitButton btn btn-primary" >Copy Text</button>
+        </div>
+    </form>
+    <footer>
+        <h3>Made with Love, Gelato 💛</h3>
+        <br>
+    </footer>
+    
+    <script src="index.js"></script>
+</body>
+
+</html>
