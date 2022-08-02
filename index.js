@@ -17,6 +17,7 @@ function timeDifference() {
 function saveText(){
     var text=document.getElementById("textID");
     text.select();
+    text.setSelectionRange(0, 99999);
     navigator.clipboard.writeText(text.value);
     copy_updated.style.visibility="visible"
 
