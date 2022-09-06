@@ -60,6 +60,17 @@ footer{
     margin-bottom: 40px;
     text-align: center;
 }
+@media (max-width:1028px) {
+    .sizeBtn {
+        width: 30px;
+        height: 30px;
+        font-size: 15px;
+        text-align: center;
+        margin: 2px;
+        padding: 0;
+    }
+}
+
 
 /* Light Lime: #abd699  green bright
 
